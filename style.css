@@ -87,6 +87,17 @@ body{
     color: white;
 }
 
+.tickets{
+    margin-left: 390px;
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+}
+
 .tropes{
     font-size: 20px;
     color: purple;
