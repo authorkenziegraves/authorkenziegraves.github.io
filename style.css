@@ -1,0 +1,233 @@
+body{
+    background-image: url(https://freerangestock.com/sample/103993/starry-night-sky-above-a-hill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1900px;
+}
+
+.content{
+    background-color: white;
+    color: purple;
+    border-radius: 20px;
+    margin: auto; 
+    min-width: 950px; 
+    max-width: 600px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.headshot{
+    width: 300px;
+    height: 350px;
+    float: right;
+    padding-right: 5px;
+}
+
+.header1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header2{
+    text-align: center;
+    margin-top: -70px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header3{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.socials{
+    float: right;
+    margin-right: -25px;
+    margin-left: -50px;
+}
+
+.newsletter{
+    margin-left: 350px;
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+}
+
+.links{
+    margin-left: 366px;
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+}
+
+.tropes{
+    font-size: 20px;
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.credit{
+    font-size: small;
+    color: purple;
+    float: right;
+}
+
+.bookleft{
+    height: 400px;
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+.bookright{
+    height: 400px;
+    width: 300px;
+    float: right;
+    padding: 10px;
+}
+
+.buyleft{
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+    margin-left: 250px;
+}
+
+.buyright{
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+    margin-left: 250px;
+}
+
+.preorder{
+    border: Solid purple;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    text-decoration: none;
+    background: linear-gradient(to left, teal, blue, indigo, purple);
+    color: white;
+    margin-left: 214px;
+}
+
+.menu{
+    padding: 25px;
+    background-color: white;
+    margin: auto; 
+    min-width: 950px; 
+    max-width: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.menu > a{
+    color: purple;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 12px 24px 12px 24px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+.menu > a:hover{
+    background-color: purple;
+    color: white;
+}
+
+.dropbtn {
+    color: purple;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 12px 24px 12px 24px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
+    border: 0px;
+    outline: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 24px 12px 24px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: purple;
+    padding: 12px 24px 12px 24px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.1s linear 0s, color 0.1s linear 0s;
+}
+
+.dropdown-content a:hover {
+    background-color: purple;
+    color: white;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: purple;
+    color: white;
+}
